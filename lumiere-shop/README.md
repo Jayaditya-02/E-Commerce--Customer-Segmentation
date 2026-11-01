@@ -1,16 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# E-Commerce Online Customer Segmentation for Smart Incentive System
 
-Currently, two official plugins are available:
+## Project Overview
+This project focuses on segmenting e-commerce customers based on their purchasing behaviour and providing personalized incentives to improve customer engagement, satisfaction, and retention.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objectives
+- Analyze customer purchasing behaviour.
+- Identify different customer segments using RFM Analysis.
+- Apply K-Means Clustering for customer segmentation.
+- Calculate Customer Lifetime Value (CLV).
+- Recommend personalized incentives for different customer groups.
 
-## React Compiler
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Methodology
+1. Data Collection
+2. Data Preprocessing
+3. RFM Analysis (Recency, Frequency, Monetary)
+4. Customer Lifetime Value Analysis
+5. K-Means Clustering
+6. Customer Segmentation
+7. Smart Incentive Recommendation
 
-## Expanding the ESLint configuration
+## Expected Outcomes
+The system identifies customer groups and recommends suitable incentives such as discounts, loyalty rewards, and special offers to improve customer retention.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+1. Clone this repository.
+2. Install the required Python libraries.
+3. Open the Jupyter Notebook.
+4. Run all cells to execute the project.
+
+## Author
+Jayaditya
+
+## Project Type
+Academic Mini Project
